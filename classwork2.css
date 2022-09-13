@@ -1,0 +1,331 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    background-color: #333;
+    opacity: 0.7;
+    top: 0;
+    width: 100%;
+    transition: 500ms ease-in-out;
+}
+#nav{
+    background: transparent;
+}
+#book{
+    color: #28a745;
+}
+nav h1{
+    padding-left: 10px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    padding: 5px;
+}
+nav ul a:hover{
+    border-bottom: solid 2px #28a745;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(/edgeledger/pexels-roberto-nickson-2478248.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    
+}
+.s1{
+    text-align: center;
+    padding-top: 250px;
+    line-height: 3;
+
+}
+.s1 h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.s1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    background-color: #28a745;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn1 a:hover{
+    background-color: #28a745;
+}
+.b1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+}
+.b11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.b11 h3{
+    font-weight: 1px;
+}
+.b11 a{
+    border: 1px solid;
+    padding: 0px 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    color: white;
+    border-radius: 100%;
+    background-color: #28a745;
+
+}
+.b2{
+    display: flex;
+}
+.b22{
+    background-color: #28a745;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: white;
+
+}
+.b22 h1{
+    font-weight: lighter;
+    font-size: 40px;
+}
+.b22 h3{
+    font-weight: 500;
+}
+.btn2{
+    margin-left: 20px;
+    margin-right: 750px;
+    margin-top: 20px;
+    padding: 10px;
+    border: white 1px solid;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.b3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    height: 300px;
+}
+.b3 h1{
+    font-weight: lighter;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.b3 h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.b3 p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.b4{
+    display: flex;
+    flex-direction: column;
+    
+}
+.b4a{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 40px;
+}
+.b4b{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 40px;
+}
+.b4a1:hover{
+    opacity: 0.5;
+}
+.b4b1:hover{
+    opacity: 0.5;
+}
+.b5{
+    display: flex;
+    margin-top: 50px;
+}
+.b52{
+    background-color: #0284d9;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: white;
+}
+.b52 h1{
+    font-weight: lighter;
+    font-size: 40px;
+}
+.b52 h3{
+    font-weight: 500;
+    
+}
+.btn3{
+    margin-left: 20px;
+    margin-right: 650px;
+    margin-top: 20px;
+    padding: 10px;
+    border: white 1px solid;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn3 a{
+    text-decoration: none;
+    color: white;
+}
+.b6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    height: 300px;
+}
+.b6 h1{
+    font-weight: lighter;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.b6 h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.b6 p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.b7{
+    display: flex;
+    justify-content: space-evenly;
+}
+.b72{
+    border-radius: 50%;
+}
+.b71{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.b71 h4{
+    font-weight: 500;
+}
+.b8{
+    display: flex;
+    margin-bottom: 0px;
+    height: 600px;
+}
+
+.b82{
+    background-color: #f4f4f4;
+    color: black;
+    width: 1000px;
+    padding-left: 50px;
+    height: 100%;
+    padding-top: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.b82 h1{
+    font-weight: lighter;
+    font-size: 40px;
+}
+.b8-form{
+    margin: 20px;
+}
+.b8-form input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0.5px solid #f4f4f4;
+    font-family: inherit;
+    font-size: 15px;
+}
+.form-btn{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background: #28a745;
+    color: #fff;
+    font-family: inherit;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.form-btn:hover{
+    background: #f4f4f4;
+    color: #28a745;
+}
+body{
+    overflow-x: hidden;
+}
+footer{
+    height: 300px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+.b91{
+    display: flex;
+}
+.b91 a{
+    color: #fff;
+    font-size: 32px;
+    margin: 15px;
+}
+.b92{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
