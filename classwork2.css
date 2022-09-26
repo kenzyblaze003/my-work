@@ -42,7 +42,7 @@ nav ul a:hover{
     border-bottom: solid 2px #28a745;
 }
 header{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(/edgeledger/pexels-roberto-nickson-2478248.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(pexels-roberto-nickson-2478248.jpg);
     height: 100vh;
     width: 100vw;
     background-position: center;
